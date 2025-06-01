@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "brand": "Casio",
+    "model": "G-Shock GA2100",
+    "type": "Digital-Analog",
+    "price": 99.99,
+    "features": ["Shock Resistant", "200M Water Resistant", "World Time", "LED Light"],
+    "available": true
+  },
+  {
+    "id": 2,
+    "brand": "Seiko",
+    "model": "SNK809",
+    "type": "Analog",
+    "price": 125.50,
+    "features": ["Automatic Movement", "Day-Date Display", "Water Resistant"],
+    "available": false
+  },
+  {
+    "id": 3,
+    "brand": "Apple",
+    "model": "Watch Series 9",
+    "type": "Smartwatch",
+    "price": 399.00,
+    "features": ["Heart Rate Monitor", "GPS", "Always-On Retina Display", "Bluetooth"],
+    "available": true
+  },
+  {
+    "id": 4,
+    "brand": "Rolex",
+    "model": "Submariner",
+    "type": "Analog",
+    "price": 9200.00,
+    "features": ["Automatic Movement", "300M Water Resistance", "Ceramic Bezel"],
+    "available": true
+  },
+  {
+    "id": 5,
+    "brand": "Timex",
+    "model": "Ironman Classic 30",
+    "type": "Digital",
+    "price": 45.00,
+    "features": ["Indiglo Light", "Stopwatch", "Alarm", "Water Resistant"],
+    "available": true
+  }
+]

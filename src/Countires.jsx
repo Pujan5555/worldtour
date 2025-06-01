@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ShowCountry from "./ShowCountry";
 import './countrystyle.css';
+import Watch from "./Watch";
 const Countires = () => {
     const [country, setCountry] = useState([]);
     useEffect(() => {
@@ -38,6 +39,9 @@ const Countires = () => {
                 {
                     country.map(country => <ShowCountry country={country} key={country.cca2} visitedFunc={visitedFunc}></ShowCountry>)
                 }
+            </div>
+            <div>
+                <Watch></Watch>
             </div>
         </div>
     );
